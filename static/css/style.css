@@ -1,0 +1,32 @@
+
+#country li{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+#country li button{
+    margin-left: 5px;
+}
+
+
+.form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 5em auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 500px;
+}
+
+
+#new-country-form{
+    padding: 5px;
+}
+
+/* body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+  } */
