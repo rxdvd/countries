@@ -9,5 +9,5 @@ form.addEventListener('submit', submitCountry);
 
 
 
-
+const delBtn = document.querySelector('.delete-btn');
 // deleteBtn.addEventListener('click', deleteCountry)
