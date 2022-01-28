@@ -57,7 +57,6 @@ function appendCountry(countryData) {
   delBtn.addEventListener("click", removeCountry);
   editBtn.addEventListener("click", editModal);
 
-  // removeCountry()
 }
 
 const removeCountry = async (e) => {
@@ -69,9 +68,8 @@ const removeCountry = async (e) => {
 
     const reply = await response.json();
     console.log(reply);
-    console.log(
-      e.target.parentElement.parentElement.removeChild(e.target.parentElement)
-    );
+
+    e.target.parentElement.parentElement.removeChild(e.target.parentElement);
   } catch (err) {
     console.log(err);
   }
