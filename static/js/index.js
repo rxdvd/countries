@@ -1,13 +1,7 @@
-const {getAllCountries,submitCountry} = require('./app')
+const { getAllCountries, submitCountry } = require("./app");
 
-getAllCountries()
+getAllCountries();
 
-const form = document.querySelector('#new-country-form');
+const form = document.querySelector("#new-country-form");
 
-
-form.addEventListener('submit', submitCountry);
-
-
-
-const delBtn = document.querySelector('.delete-btn');
-// deleteBtn.addEventListener('click', deleteCountry)
+form.addEventListener("submit", submitCountry);

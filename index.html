@@ -11,24 +11,47 @@
 <body>
     <div class=form>
         <form id="new-country-form">
-            <label for="name">name</label>
-            <input type="text" id="name" />
-
-            <label for="city">capital</label>
-            <input type="text" id="city" />
-
+            <div >
+                <label for="name"></label>
+                <input class="country-name" type="text" id="name" placeholder="Country name"  />
+            </div>
+                <br>
+                <br>
+            <div>  
+                <label for="city"></label>
+                <input class="city-name"type="text" id="city" class="city-name" placeholder="Capital City"/>
+            </div>
+            <br>
+            <br>
             <input type="submit" value="Add Country">
-
+    </form>
             <section id=country>
-                <h3>Country:</h3>
+                <h3>Countries</h3>
                 <ul>
         
                 </ul>
             </section>
-        </form>
-</div>
+        
+    </div> 
 
+    <div id="myModal" class="modal">
 
-    
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit</h2>
+          <form class= 'edit-form'>
+            <div class="form-group">
+              <label for="exampleInputName"></label>
+              <input type="name" class="form-control" id="editCountry" placeholder="Country name">
+              <label for="exampleInputName"></label>
+              <input type="name" class="form-control" id="editCity" placeholder="capital">
+              <div class="modal-footer">
+                <input type="submit" value="Save" class="modal-button">
+            </div>
+            </div>
+        </div>
+      
+      </div>
 </body>
 </html>
